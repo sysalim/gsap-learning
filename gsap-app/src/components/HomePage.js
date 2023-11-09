@@ -1,6 +1,8 @@
 import styles from "../styles/components/Home.module.scss";
 import Clients from "./app/Clients";
 import Info from "./app/Info";
+import InfoFooter from "./app/InfoFooter";
+import LocalBussines from "./app/LocalBussines";
 import Slider from "./app/Slider";
 const HomePage = () => {
   return (
@@ -8,6 +10,8 @@ const HomePage = () => {
       <Slider />
       <Clients />
       <Info />
+      <LocalBussines />
+      <InfoFooter />
     </div>
   );
 };
