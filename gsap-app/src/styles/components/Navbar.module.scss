@@ -1,0 +1,19 @@
+.navbar {
+  max-width: 588px;
+  width: 100%;
+  .navigate {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+    li {
+      color: black;
+      font-size: 17px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
