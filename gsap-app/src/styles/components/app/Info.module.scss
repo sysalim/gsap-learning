@@ -1,0 +1,33 @@
+.info {
+  width: 100%;
+  max-width: 1440px;
+  height: 433px;
+  margin-top: 42px;
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    gap: 49px;
+    height: 100%;
+
+    .content_logo {
+      width: 100%;
+      max-width: 442px;
+      height: auto;
+    }
+
+    .content_text {
+      width: 100%;
+      max-width: 661px;
+      height: 268px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+
+      h1 {
+        font-size: 46px;
+      }
+    }
+  }
+}

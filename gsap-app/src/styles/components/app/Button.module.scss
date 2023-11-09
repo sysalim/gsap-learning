@@ -7,3 +7,16 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+.buttonText {
+  width: 151px;
+  height: 52px;
+  background-color: #4CAF4F;
+  color: white;
+  margin-top: 32px;
+}
+
+.buttonText:hover {
+  background-color: green;
+  transition: 2ms
+}

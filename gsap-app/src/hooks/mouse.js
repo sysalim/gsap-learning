@@ -12,7 +12,15 @@ const onLeave = ({ currentTarget }) => {
     scale: 1,
   });
 };
+
+const onEnterFlip = ({ currentTarget }) => {
+  gsap.to(currentTarget, {
+    rotateY: 180,
+    duration: 0.5,
+  });
+};
 export default {
   onEnter,
   onLeave,
+  onEnterFlip
 };
